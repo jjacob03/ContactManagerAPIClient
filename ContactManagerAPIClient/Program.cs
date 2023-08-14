@@ -22,10 +22,10 @@ class Program
 
         //READ: Don't run all of these at once (even though technically you could). Run them individually to get cleaner focus on the task you want to test.
         //await CreateContactAsync();
-        //await GetContactsAsync();
+        await GetContactsAsync();
         //await SearchContactsAsync("Kevin Durant", Convert.ToDateTime("01-01-1988"), Convert.ToDateTime("04-01-1989"));
         //await UpdateContactAsync(3);
-        await DeleteContactAsync(6);
+        //await DeleteContactAsync(6);
 
     }
 
